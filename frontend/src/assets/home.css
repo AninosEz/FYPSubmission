@@ -1,0 +1,141 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0f1117;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.main-title {
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.main-title h1 {
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color:  #00ffc8;
+}
+
+.subtitle {
+    color: #cccccc;
+    font-size: 1rem;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.detection-card {
+    background-color: #1f2229;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 0.75rem;
+    background-color: #2b2d35;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.tabs button.active {
+    background-color: #3dd68c;
+    color: #000;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.file-input {
+    background-color: #2c2c2c;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 0.5rem;
+}
+
+.analyze-btn,
+.record-btn {
+    background-color: #3dd68c;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.analyze-btn:disabled {
+    background-color: #999;
+    color: #eee;
+    cursor: not-allowed;
+}
+
+.warning-text {
+    color: #ff4d4d;
+    font-size: 0.85rem;
+    margin-top: -0.5rem;
+}
+
+.loading {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #dcdcdc;
+}
+
+.result-box {
+    margin-top: 1.5rem;
+    background-color: #2a2d35;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+    color: #f0f0f0;
+}
+
+.result-box h4 {
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.text-fake {
+    color: #ff4d4d;
+    font-weight: 600;
+}
+
+.text-real {
+    color: #00e676;
+    font-weight: 600;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #002b36;
+    color: #cceeff;
+    text-align: center;
+    padding: 1rem 0;
+    z-index: 100;
+}
+

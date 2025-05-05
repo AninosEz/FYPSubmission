@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+
+# Node/Vite
+frontend/node_modules/
+frontend/dist/
+
+# VSCode
+.vscode/
+
+# System
+.DS_Store
+
+# Replit runtime
+.replit
