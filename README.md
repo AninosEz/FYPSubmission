@@ -24,6 +24,7 @@ npm run build
 
 ```bash
 cd ../
+python manage.py migrate
 python manage.py runserver
 ```
 
